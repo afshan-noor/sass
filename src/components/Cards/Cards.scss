@@ -1,0 +1,23 @@
+@import '../../styles/style.scss';
+
+.content{
+ 
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+    border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 40px 40px;
+  padding: 40px;
+  background-color: $baseColor;
+
+  ul {
+    text-decoration: none;
+  }
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}

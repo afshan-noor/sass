@@ -3,6 +3,17 @@ $whiteClor:rgb(235,235,235);
 $redColor:rgb(175,2,2);
 $baseColor:#FFB6C1;
 
+// Container
+
+.container{
+    width:1000px;
+max-width:100%;
+padding:0px 20px;
+margin:0 auto;
+}
+
+// layout
+
 // Fonts
 
 $titleFont:Arial,Helvetica,sans-serif;

@@ -1,5 +1,5 @@
 
-
+import Cards from './components/Cards/Cards';
 import HomePage from './components/MainPage/MainPage';
 import Navbar from './components/Navbar/Navbar';
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
      <Navbar/>
      <HomePage/>
+     <Cards/>
     </div>
   );
 }

@@ -1,3 +1,10 @@
+.container {
+  width: 1000px;
+  max-width: 100%;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
 .mainpage {
   padding: 40px 0;
   background-color: #FFB6C1;

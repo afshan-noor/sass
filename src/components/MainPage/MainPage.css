@@ -2,4 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.mainpage h1 {
+  color: rgb(175, 2, 2);
+}
+.mainpage button {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(175, 2, 2);
+  border-radius: 8px;
+  border: none;
+  color: rgb(235, 235, 235);
+  font-size: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=MainPage.css.map */

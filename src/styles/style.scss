@@ -6,3 +6,16 @@ $redColor:rgb(175,2,2);
 
 $titleFont:Arial,Helvetica,sans-serif;
 $bodyFont:"Times New Roman",Times,serif;
+
+// Buttons
+
+@mixin buttonStyle($color,$fontsize){
+    width: 200px;
+    height: 30px ;
+    background-color: $color;
+  border-radius: 8px;
+  border: none;
+  color: $whiteClor;
+  font-size: $fontsize;
+  cursor: pointer;
+}

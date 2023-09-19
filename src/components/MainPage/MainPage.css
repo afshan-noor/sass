@@ -1,19 +1,31 @@
 .mainpage {
+  padding: 40px 0;
+  background-color: #FFB6C1;
+}
+
+.StyledFlex {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px;
 }
-.mainpage h1 {
-  color: rgb(175, 2, 2);
+.StyledFlex img {
+  width: 375px;
+  margin-left: 40px;
 }
-.mainpage button {
-  width: 200px;
-  height: 30px;
-  background-color: rgb(175, 2, 2);
-  border-radius: 8px;
+.StyledFlex button {
+  border-radius: 50px;
   border: none;
-  color: rgb(235, 235, 235);
-  font-size: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 60px;
+  background-color: "#ff0099";
+  color: rgb(175, 2, 2);
+  margin: 3rem;
+}
+.StyledFlex button:hover {
+  opacity: 0.9;
+  transform: scale(0.98);
 }/*# sourceMappingURL=MainPage.css.map */

@@ -1,6 +1,7 @@
 $blackColor:rgb(24,24,24);
 $whiteClor:rgb(235,235,235);
 $redColor:rgb(175,2,2);
+$baseColor:#FFB6C1;
 
 // Fonts
 
@@ -9,13 +10,19 @@ $bodyFont:"Times New Roman",Times,serif;
 
 // Buttons
 
-@mixin buttonStyle($color,$fontsize){
-    width: 200px;
-    height: 30px ;
-    background-color: $color;
-  border-radius: 8px;
+@mixin buttonStyle($color,$fontsize,$bg){
+    border-radius: 50px;
   border: none;
-  color: $whiteClor;
-  font-size: $fontsize;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-size: $fontsize;
+  font-weight: 700;
+  padding: 15px 60px;
+  background-color:$bg;
+  color:$color;
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
 }

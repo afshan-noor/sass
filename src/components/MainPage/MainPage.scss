@@ -2,14 +2,24 @@
 
 
 .mainpage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    h1{
-        color: $redColor;
-    }
-    button{
-       @include buttonStyle($redColor,20px);
-    }
+    padding: 40px 0;
+    background-color: $baseColor;
+}
+
+.StyledFlex{
+  
+    display:flex;
+align-items:center;
+justify-content: space-between;
+margin: 30px;
+
+img{
+    width: 375px;
+    margin-left: 40px;
+  
+}
+button{
+    @include buttonStyle($redColor,20px,'#ff0099');
+    margin :3rem;
+ }
 }
